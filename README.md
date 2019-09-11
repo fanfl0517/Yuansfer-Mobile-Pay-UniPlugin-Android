@@ -25,7 +25,7 @@ jsCallback {
            }
 
 ```
-2. 查询订单
+2. 查询订单(queryOrder)
 ```
 jsonObject {
                 "merchantNo":"200043",
@@ -57,7 +57,7 @@ jsCallback {
                }
            }
 ```
-3. 退款
+3. 退款(refund)
 ```
 jsonObject {
                "merchantNo":"200043",
