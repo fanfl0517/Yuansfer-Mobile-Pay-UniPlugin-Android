@@ -1212,7 +1212,7 @@ module.exports = {
 
             function (result) {
                 modal.toast({
-                    message: '查询订单结果：' + result.retCode+"," +result.retMsg + "，" + result.result,
+                    message: '订单退款结果：' + result.retCode+"," +result.retMsg + "，" + result.result,
                     duration: 4.0 });
 
             });
