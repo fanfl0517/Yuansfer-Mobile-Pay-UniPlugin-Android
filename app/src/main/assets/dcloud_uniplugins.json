@@ -1,0 +1,17 @@
+{
+  "nativePlugins": [
+    {
+      "hooksClass": "",
+      "plugins": [
+        {
+          "type": "module",
+          "name": "YuansferPay",
+          "class": "uni.yuansfer.payplugin.YuansferPayModule"
+        }
+      ]
+    },
+    {
+      "hooksClass": ""
+    }
+  ]
+}

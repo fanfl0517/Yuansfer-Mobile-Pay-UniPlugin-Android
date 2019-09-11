@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/unipayplugin/build/intermediates/packaged_res/debug/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,157,215,294,380,470,522,578,634,692",
+                        "endColumns": "43,57,57,78,85,89,51,55,55,57,71",
+                        "endOffsets": "94,152,210,289,375,465,517,573,629,687,759"
+                    }
+                }
+            ]
+        }
+    ]
+}

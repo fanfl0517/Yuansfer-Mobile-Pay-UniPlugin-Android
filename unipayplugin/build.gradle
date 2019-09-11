@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.novoda.bintray-release'
+group = 'com.github.fengyupianzhou'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+
+    compileOnly fileTree(dir: '../app/libs', include: ['uniapp-release.aar'])
+
+    compileOnly "com.android.support:recyclerview-v7:26.1.0"
+    compileOnly "com.android.support:support-v4:26.1.0"
+    compileOnly "com.android.support:appcompat-v7:26.1.0"
+
+    implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+    implementation 'com.alibaba:fastjson:1.1.46.android'
+
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    implementation 'com.fly.aar:alipaySdk:15.6.2'
+//    implementation 'com.android.support:appcompat-v7:29.+'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+publish {
+    userOrg = 'fly-zhu189'
+    groupId = 'com.fly.sdk'
+    artifactId = 'uniplugin'
+    publishVersion = '0.1.0'
+    desc = 'uni-app android plugin, contain alipay and wechat pay'
+    website = 'https://github.com/fengyupianzhou/Yuansfer-Mobile-Pay-SDK-Android-V2'
+}
+
+tasks.withType(org.gradle.api.tasks.javadoc.Javadoc) {
+    options {
+        links "http://docs.oracle.com/javase/7/docs/api/"
+        linksOffline "http://d.android.com/reference", "${android.sdkDirectory}/docs/reference"
+        encoding 'utf-8'
+        charSet 'utf-8'
+        tags 'date:t:Date:'
+        tags 'sample:t:Sample:'
+        tags 'attr:a:Attribute:'
+        exclude '**/*'
+    }
+}

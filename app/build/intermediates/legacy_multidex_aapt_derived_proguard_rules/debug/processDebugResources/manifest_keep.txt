@@ -1,0 +1,4 @@
+# Referenced at /Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:73
+-keep class io.dcloud.application.DCloudApplication { <init>(...); }
+# Referenced at /Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:213
+-keep class io.dcloud.multiprocess.activity.WebAppActivity1 { <init>(...); }

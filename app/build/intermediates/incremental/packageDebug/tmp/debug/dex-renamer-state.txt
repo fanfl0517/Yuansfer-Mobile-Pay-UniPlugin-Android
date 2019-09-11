@@ -1,0 +1,7 @@
+#Wed Sep 11 16:26:11 CST 2019
+base.0=/Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/transforms/dexMerger/debug/0
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/transforms/dexMerger/debug/0

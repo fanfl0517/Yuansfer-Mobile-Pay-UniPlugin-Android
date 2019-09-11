@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/fly/Downloads/Android-SDK@1.9.9.68191_20190819-1/Yuansfer-Mobile-Pay-UniPlugin-Android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn/values-kn.xml",
+            "map": [
+                {
+                    "source": "/Users/fly/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/17d1097eeb29090e315381600979f372/res/values-kn/values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
