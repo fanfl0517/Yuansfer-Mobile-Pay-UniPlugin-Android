@@ -85,16 +85,19 @@ jsCallback {
 ### 其它说明
 
 状态码(retCode)
-200 成功
-201 取消
-202 失败
+- 200 成功
+- 201 取消
+- 202 失败
 
 支付类型(payType)
-1支付宝
-2微信
+- 1 支付宝
+- 2 微信
+
+设置支付测试模式
+- var payPlugin = uni.requireNativePlugin('YuansferPay');
+- payPlugin.setDebug({debug:true})
 
 ### 版本日志
-
 #### 0.1.0
 - 项目初始化
 - uni-app可调用native的预付款、订单详情、退款等功能
