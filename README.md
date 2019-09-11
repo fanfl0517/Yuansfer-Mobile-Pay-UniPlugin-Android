@@ -1,7 +1,7 @@
 ## Yuansfer-Mobile-Pay-UniPlugin-Android
 Yuansfer-Mobile-Pay-UniPlugin-Android是基于uni-app调用原生代码的插件项目，以json为数据交互方式。
 
-### js通过native支付功能
+### js调用native支付功能
 1. 预下单(prepay),入参及回调：
 ```
 jsonObject {
