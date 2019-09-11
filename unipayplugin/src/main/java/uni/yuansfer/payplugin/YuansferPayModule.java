@@ -39,7 +39,7 @@ import uni.yuansfer.payplugin.util.YuansferException;
 /**
  * @Author Fly-Android
  * @CreateDate 2019/5/23 16:43
- * @Desciption Yuansfer api client
+ * @Desciption yuansfer pay api base web-app
  */
 public class YuansferPayModule extends WXSDKEngine.DestroyableModule {
 
