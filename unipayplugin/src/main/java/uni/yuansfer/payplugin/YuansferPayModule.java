@@ -75,7 +75,7 @@ public class YuansferPayModule extends WXSDKEngine.DestroyableModule {
      *                   currency:'USD'}
      * @param jsCallback {
      *                   payType:1, //1支付宝2微信
-     *                   retCode:200, //200成功201取消202失败
+     *                   retCode:200, //200成功201失败202取消
      *                   retMsg: "payment success"   // 结果描述
      *                   }
      */
@@ -136,7 +136,7 @@ public class YuansferPayModule extends WXSDKEngine.DestroyableModule {
      *                   token:'4dc2f2281d1f51fe137eafb914106524',
      *                   amount:amount,
      *                   reference: reference},
-     * @param jsCallback { retCode:200, //200成功201取消202失败
+     * @param jsCallback { retCode:200, //200成功201失败202取消
      *                   retMsg: "refund success"   // 结果描述
      *                   result: object:{
      *                   "amount": "0.01",
@@ -188,7 +188,7 @@ public class YuansferPayModule extends WXSDKEngine.DestroyableModule {
      *                    storeNo:'300014',
      *                    token:'4dc2f2281d1f51fe137eafb914106524',
      *                    reference: reference}
-     * @param jsCallback{ retCode:200, //200成功201取消202失败
+     * @param jsCallback{ retCode:200, //200成功201失败202取消
      *                    retMsg: "query success"   // 结果描述
      *                    result: object:{
      *                    "reference": "test20180801006",
